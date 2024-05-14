@@ -1,0 +1,26 @@
+codecraft_simulator/
+├── backend/
+│   ├── app.py
+│   ├── models.py
+│   ├── routes.py
+│   ├── services.py
+│   └── utils.py
+├── frontend/
+│   ├── index.html
+│   ├── styles.css
+│   ├── main.js
+│   ├── components/
+│   │   ├── CodeEditor.js
+│   │   ├── CityView.js
+│   │   ├── QuestLog.js
+│   │   └── Tutorial.js
+├── database/
+│   ├── schema.sql
+│   └── seed.py
+├── tests/
+│   ├── test_backend.py
+│   └── test_frontend.js
+├── Dockerfile
+├── docker-compose.yml
+├── README.md
+└── requirements.txt
